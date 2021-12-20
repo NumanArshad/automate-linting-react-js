@@ -1,5 +1,9 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -14,14 +18,7 @@
     }
   },
   "rules": {
-    "semi": ["warn", "always"],
-    "quotes": ["error", "double"],
-    "no-unused-vars": "warn",
-    "key-spacing": "warn",
-    "no-trailing-spaces": "warn",
-    "array-bracket-newline": "warn",
-    "react/jsx-equals-spacing": "warn",
-    "indent": ["error", 4],
-    "no-undef":"off"
+    "no-undef": "off",
+    "no-unused-vars": "on"
   }
 }
