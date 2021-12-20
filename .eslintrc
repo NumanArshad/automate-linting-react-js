@@ -1,0 +1,27 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react"],
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "rules": {
+    "semi": ["warn", "always"],
+    "quotes": ["error", "double"],
+    "no-unused-vars": "warn",
+    "key-spacing": "warn",
+    "no-trailing-spaces": "warn",
+    "array-bracket-newline": "warn",
+    "react/jsx-equals-spacing": "warn",
+    "indent": ["error", 4],
+    "no-undef":"off"
+  }
+}
