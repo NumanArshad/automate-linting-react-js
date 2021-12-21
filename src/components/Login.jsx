@@ -12,7 +12,6 @@ switch (key) {
 console.log({ gh });
 
 // skgdnkdnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn dknffffffffffffffffffffffffffff knfnbnfvnbjfj snjjdgbjdbghb kngvd"
-const helo = () => <h1>sfgr</h1>;
 
 const Gh = () => {
     var url = 'https://www.example.com/really/really/really/really/really/really/really/long';
