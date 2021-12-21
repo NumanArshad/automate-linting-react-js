@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import helper from '../utils';
-import helper from '../utils';
 
 let gh = 'there';
 
