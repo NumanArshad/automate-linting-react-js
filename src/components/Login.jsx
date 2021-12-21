@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 let gh = 'there';
 
-const f = {
-    name: 'ali',
-    hamza: 2,
-};
 let key = 4;
 
 switch (key) {
