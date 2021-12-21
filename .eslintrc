@@ -1,24 +1,23 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
+    "root": true,
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": ["react"],
+    "settings": {
+        "react": {
+            "version": "latest"
+        }
+    },
+    "rules": {
+        "no-undef": "off",
+        "no-unused-vars": 1,
+        "default-case": "warn",
+        "prettier/prettier": "error"
     }
-  },
-  "plugins": ["react"],
-  "settings": {
-    "react": {
-      "version": "latest"
-    }
-  },
-  "rules": {
-    "no-undef": "off",
-    "no-unused-vars": "on"
-  }
 }
